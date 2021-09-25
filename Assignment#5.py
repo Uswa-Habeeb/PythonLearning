@@ -1,5 +1,5 @@
 # 1st Condition
-# chocolates > candies
+# Operand_1 > Operand_2
 
 # Addition
 chocolates = 11
@@ -59,7 +59,7 @@ print(f'The Modulus of candies = {candies}')
 
 
 # 2nd Condition
-# chocolates < candies
+# Operand_1 < Operand_2
 
 # Addition
 chocolates = 3
