@@ -111,7 +111,7 @@ print(f'The Exponentiation of Total_Sweets = {Total_Sweets}')
 
 # Modulus
 chocolates = 40
-candies =  55
+candies =   55
 Total_Sweets = chocolates % candies
 print(f'The Modulus of Total_Sweets = {Total_Sweets}')
 # The Modulus of Total_Sweets = 40
