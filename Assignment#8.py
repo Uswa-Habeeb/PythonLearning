@@ -52,9 +52,9 @@ if condition:
 
 
 # Problem 3
-student_1 = 79
+student_1 = 40
 student_2 = 20
-student_3 = 60.5
+student_3 = 12
 student_4 = 35
 # Passing marks = 55
 
@@ -63,8 +63,7 @@ student_4 = 35
 condition = student_1 < 55
 if condition:
     print(f'student_1 FAIL')
-# Nothing 
-# Because marks are higher than passing marks
+# student_1 FAIL
 
 
 condition = student_2 < 55
@@ -76,8 +75,7 @@ if condition:
 condition = student_3 < 55
 if condition:
     print(f'student_3 FAIL')
-# Nothing 
-# Because marks are higher than passing marks
+# student_3 FAIL
 
 
 condition = student_4 < 55
