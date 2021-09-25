@@ -1,117 +1,117 @@
 # 1st Condition
-# Operand_1 > Operand_2
+# chocolates > candies
 
 # Addition
-Operand_1 = 11
-Operand_2 = 8
-result = Operand_1 + Operand_2
-print(f'The Result of Addition = {result}')
-# The Result of Addition = 19
+chocolates = 11
+candies = 8
+Total_Sweets = chocolates + candies
+print(f'The Addition of Total_Sweets  = {Total_Sweets}')
+# The Addition of Total_Sweets = 19
 
 
 # Subtraction
-Operand_1 = 99
-Operand_2 = 50
-result = Operand_1 - Operand_2
-print(f'The Result of Subtraction = {result}')
-# The Result of Subtraction = 49
+chocolates = 99
+candies = 51
+Total_Sweets = chocolates - candies
+print(f'The Subtraction of Total_Sweets = {Total_Sweets}')
+# The Subtraction of Total_Sweets  = 48
 
 
 # Multiplication 
-Operand_1 = 111
-Operand_2 = 80
-result = Operand_1 * Operand_2
-print(f'The Result of Multiplication = {result}')
-# The Result of Multiplication = 8880
+chocolates = 111
+candies = 85
+Total_Sweets = chocolates * candies
+print(f'The Multiplication of Total_Sweets = {Total_Sweets}')
+# The Multiplication of Total_Sweets  = 9435
 
 
 # Division
-Operand_1 = 123
-Operand_2 = 67
-result = Operand_1 / Operand_2
-print(f'The Result of Division = {result}')
-# The Result of Division = 1.835820895522388
+chocolates = 67
+candies = 12
+Total_Sweets = chocolates / candies
+print(f'The Division of Total_Sweets = {Total_Sweets}')
+# The Division of Total_Sweets = 5.583333333333333
 
 
 # Floor Division
-Operand_1 = 43
-Operand_2 = 25
-result = Operand_1 // Operand_2
-print(f'The Result of Floor Division = {result}')
-# The Result of Floor Division = 1
+chocolates = 43
+candies = 25
+Total_Sweets = chocolates // candies
+print(f'The Floor Division of Total_Sweets  = {Total_Sweets}')
+# The Floor Division of Total_Sweets = 1
 
 
 # Exponentiation
-Operand_1 = 12
-Operand_2 = 8
-result = Operand_1 ** Operand_2
-print(f'The Result of Exponentiation = {result}')
-# The Result of Exponentiation = 429981696
+chocolates = 90
+candies = 17
+Total_Sweets = chocolates ** candies
+print(f'The Exponentiation of Total_Sweets = {Total_Sweets}')
+# The Exponentiation of Total_Sweets  = 1667718169966656900000000000000000
 
 
 # Modulus
-Operand_1 = 60
-Operand_2 = 23
-result = Operand_1 % Operand_2
-print(f'The Result of Modulus = {result}')
-# The Result of Modulus = 
+chocolates = 67
+candies = 23
+Total_Sweets = chocolates % candies
+print(f'The Modulus of Total_Sweets = {Total_Sweets}')
+# The Modulus of Total_Sweets = 21
 
 
 
 # 2nd Condition
-# Operand_1 < Operand_2
+# chocolates < candies
 
 # Addition
-Operand_1 = 3
-Operand_2 = 10
-result = Operand_1 + Operand_2
-print(f'The Result of Addition = {result}')
-# The Result of Addition = 13
+chocolates = 3
+candies = 15
+Total_Sweets = chocolates + candies
+print(f'The Addition of Total_Sweets = {Total_Sweets}')
+# The Addition of Total_Sweets = 18
 
 
 # Subtraction
-Operand_1 = 20
-Operand_2 = 89
-result = Operand_1 - Operand_2
-print(f'The Result of Subtraction = {result}')
-# The Result of Subtraction = -69
+chocolates = 20
+candies = 89
+Total_Sweets = chocolates - candies
+print(f'The Subtraction of Total_Sweets = {Total_Sweets}')
+# The Subtraction of Total_Sweets = -69
 
 
 # Multiplication 
-Operand_1 = 20
-Operand_2 = 89
-result = Operand_1 * Operand_2
-print(f'The Result of Multiplication = {result}')
-# The Result of Multiplication = 1780
+chocolates = 35
+candies = 95
+Total_Sweets = chocolates * candies
+print(f'The Multiplication of Total_Sweets = {Total_Sweets}')
+# The Multiplication of Total_Sweets = 3325
 
 
 # Division
-Operand_1 = 67
-Operand_2 = 123
-result = Operand_1 / Operand_2
-print(f'The Result of Division = {result}')
-# The Result of Division = 0.5447154471544715
+chocolates = 68
+candies = 87
+Total_Sweets = chocolates / candies
+print(f'The Division of Total_Sweets = {Total_Sweets}')
+# The Division of Total_Sweets = 0.7816091954022989
 
 
 # Floor Division
-Operand_1 = 3
-Operand_2 = 10
-result = Operand_1 // Operand_2
-print(f'The Result of Floor Division = {result}')
-# The Result of Floor Division = 0
+chocolates = 31
+candies = 60
+Total_Sweets = chocolates // candies
+print(f'The Floor Division of Total_Sweets = {Total_Sweets}')
+# The Floor Division of Total_Sweets = 0
 
 
 # Exponentiation
-Operand_1 = 2
-Operand_2 = 31
-result = Operand_1 ** Operand_2
-print(f'The Result of Exponentiation = {result}')
-# The Result of Exponentiation = 2147483648
+chocolates = 2
+candies = 31
+Total_Sweets = chocolates ** candies
+print(f'The Exponentiation of Total_Sweets = {Total_Sweets}')
+# The Exponentiation of Total_Sweets = 2147483648
 
 
 # Modulus
-Operand_1 = 23
-Operand_2 = 60
-result = Operand_1 % Operand_2
-print(f'The Result of Modulus = {result}')
-# The Result of Modulus = 23
+chocolates = 40
+candies =  55
+Total_Sweets = chocolates % candies
+print(f'The Modulus of Total_Sweets = {Total_Sweets}')
+# The Modulus of Total_Sweets = 40
