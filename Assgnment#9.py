@@ -49,7 +49,6 @@ student_2 = marks = 90
 if marks >= 60 and marks <= 70:
     print(f"B+")
 
-
 elif marks >= 90:
     print(f"A+")
 # A+
