@@ -7,15 +7,15 @@
 
 # SOLUTION:
 # User's Information:
-FirstName = "Uswa"
-LastName = "Habeeb"
-Gender = "Female"
-Religion = "Islam"
-Nationality = "Pakistani"
-Polling_Station_City = "Sahiwal" 
-Residential_City = "Sahiwal"
-# Age = 17
+FirstName = (input("Enter your First Name : "))
+LastName = (input("Enter your Last Name : "))
 Age = int(input("Enter your Age : " ))
+Gender = (input("Enter your Gender : "))
+Religion = (input("Enter your Religion : "))
+Nationality = (input("Enter your Nationality : "))
+Polling_Station_City = (input("Enter your Polling Station City : "))
+Residential_City = (input("Enter your User's Residential City : "))
+# Age = 17
 
 if Age >= 18:
     print(f"{FirstName} {LastName}, Age {Age}, Gender {Gender}, Religion {Religion}, Nationality {Nationality}, Polling Station City {Polling_Station_City}, Residential City {Residential_City} is ALLOWED TO CAST THE VOTE.")
