@@ -24,4 +24,3 @@ else:
     print(f"{FirstName}, {LastName}, Age {Age}, Gender {Gender}, Religion {Religion}, Nationality {Nationality}, Polling Station City {Polling_Station_City}, Residential City {Residential_City} is NOT ALLOWED TO CAST THE VOTE.")
 
 # Uswa, Habeeb, Age 17, Gender Female, Religion Islam, Nationality Pakistani, Polling Station City Sahiwal, Residential City Sahiwal is NOT ALLOWED TO CAST THE VOTE.
-
