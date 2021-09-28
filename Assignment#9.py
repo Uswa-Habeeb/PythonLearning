@@ -7,7 +7,7 @@ age = 20
 if age >= 18 and age <= 30:
     print(f"Allowed to watch IRON MAN 3.")
 
-elif age <= 18 or age >= 30:
+else:
     print(f"Not Allowed to watch IRON MAN 3.")
 # Allowed to watch IRON MAN 3.
 # REASON:
@@ -20,7 +20,7 @@ age = 40
 if age >= 18 and age <= 30:
     print(f"Allowed to watch IRON MAN 3.")
 
-elif age <= 18 or age >= 30:
+else:
     print(f"Not Allowed to watch IRON MAN 3.")
 # Not Allowed to watch IRON MAN 3.
 # REASON:
@@ -37,11 +37,9 @@ age = 55
 if age >= 4 and age <= 25 or age >= 50 and age <= 60:
     print(f"Allowed to watch cartoons.")
 
-elif age >= 50 and age >= 60 or age <= 4 and age <= 25:
+else:
     print(f"Not Allowed to watch cartoons.")
 
-elif age <= 50 and age <= 60 or age >= 4 and age >= 25:
-    print(f"Not Allowed to watch cartoons.")
 # Allowed to watch cartoons.
 # REASON:
 # Because age = 55, 55 is greater than 50 and less than 60, As we know in (OR) at least 1 input should be true for the results to be true otherwise false.
@@ -63,27 +61,32 @@ elif age <= 50 and age <= 60 or age >= 4 and age >= 25:
 # PROBLEM 3:
 # Suppose that you are a teacher, and you have make a list of all the students who scored above 60% and below 70% marks and those who scored above 90% in the examination.
 # SOLUTION:
-student_1 = marks = 65
+marks = 65
 
 if marks >= 60 and marks <= 70:
     print(f"B+")
 
 elif marks >= 90:
     print(f"A+")
+
+else:
+    print(f"C+")
 # B+
 # REASON:
 # Because marks = 65, 65 is greater than 60 and less than 70, both inputs are true and as we know in (AND) result is true when both inputs are true otherwise false.
 # So, the result is true.
 
 
-
-student_2 = marks = 98
+marks = 98
 
 if marks >= 60 and marks <= 70:
     print(f"B+")
 
 elif marks >= 90:
     print(f"A+")
+
+else:
+    print(f"C+")
 # A+
 # REASON:
 # Because marks = 98, 98 is greater than 90, the input is true.
