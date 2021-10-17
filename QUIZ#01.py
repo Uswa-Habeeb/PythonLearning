@@ -75,3 +75,25 @@ if number >= 1:
 # Write a Python program to check whether an alphabet is a vowel or consonant.
 
 # SOLUTION:
+alphabet = input("Enter the Alphabet: ")
+vowels = "a" or "e" or "i" or "o" or "u"
+if alphabet == vowels:
+    print(f"{alphabet} is Vowel.")
+else:
+    print(f"{alphabet} is Consonant.")
+
+# OUTPUT:
+# a is Vowel.
+# b is Consonant.
+# -----------------------------------------------------
+
+# QUESTION - 04:
+# Write a Python program to sum up two user defined integers. However, if the sum is:
+
+# Below Zero - Display "Bigger number was negative"
+# Equal to ZERO - Display "Both numbers were equally distant on number line on opposite sides"
+# Greater than ZERO - Display "Bigger number was positive"
+
+# SOLUTION:
+integer_1 = input("Integer #1: ")
+integer_2 = input("Integer #2: ")
