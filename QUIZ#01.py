@@ -12,22 +12,20 @@ if integer_1 > integer_2 and integer_3:
 if integer_2 > integer_1 and integer_3:
     print(f"Integer #2 = {integer_2} is the maximum number out of all integers.")
 if integer_3 > integer_2 and integer_1:
-    print(f"Integer #3 = {integer_3} is the maximum number out of all integers.")
+    print(f"{integer_3} is the maximum number out of all integers.")
 
 # OUTPUT:
 # Integer #1: 50
 # Integer #2: 80
 # Integer #3: -85
-# Integer #2 = 80 is the maximum number out of all integers.
+# 80 is the maximum number out of all integers.
 # -----------------------------------------------------
 
 # QUESTION - 02:
 # Write a program to calculate Area of Circle by taking radius as input.
 
 # SOLUTION:
-# A= πr²
 radius = int(input("Radius of Circle: "))
-Area = radius ** 2
 if Area == radius ** 2:
     print(f"Area = {Area * 3.14}㎠")
 
@@ -110,6 +108,7 @@ if integer_1 + integer_2 > 0:
 # Integer #2: 9
 # -5 + 9 = 4
 # Bigger number was positive.
+
 # Integer #1: -50
 # Integer #2: 8
 # -50 + 8 = -42
@@ -132,6 +131,7 @@ else:
 # Integer #1: 4
 # Integer #2: -4
 # 4 and -4 are additive inverse of each other.
+
 # Integer #1: 9
 # Integer #2: 9
 # 9 and 9 are NOT additive inverse of each other.
@@ -181,6 +181,7 @@ else:
 Muliplication_table = int(input("Enter your multiplication table : "))
 for counter in range (1, 11):
     print(f"{Muliplication_table} x {counter} = {Muliplication_table * counter}")
+
 # OUTPUT:
 # Enter your multiplication table : 6
 # 6 x 1 = 6
@@ -193,14 +194,12 @@ for counter in range (1, 11):
 # 6 x 8 = 48
 # 6 x 9 = 54
 # 6 x 10 = 60
-# -----------------------------------------------------
 
 # reverse multiplication table:
-Muliplication_table = int(input("Enter your reverse multiplication table : "))
 for counter in range (10, 0, -1):
     print(f"{Muliplication_table} x {counter} = {Muliplication_table * counter}")
+
 # OUTPUT:
-# Enter your reverse multiplication table : 6
 # 6 x 10 = 60
 # 6 x 9 = 54
 # 6 x 8 = 48
@@ -211,4 +210,3 @@ for counter in range (10, 0, -1):
 # 6 x 3 = 18
 # 6 x 2 = 12
 # 6 x 1 = 6
-# -----------------------------------------------------
