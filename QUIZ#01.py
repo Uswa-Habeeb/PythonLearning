@@ -53,7 +53,7 @@ print(f"Percentage of total marks obtained = {percentage}%")
 # SOLUTION:
 number = int(input("Enter the number: "))
 if number >= 1:
-    for i in range(2, number):
+    for counter in range(2, number):
         if (number % i) == 0:
             print(f"{number} is not a prime number")
             print(f"Because {i} multiply by {number/i} = {number}.")
